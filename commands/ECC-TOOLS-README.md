@@ -19,7 +19,7 @@ syncing from upstream. Do not overwrite or delete them during a merge or rebase 
 | 3 | `ecc-tools-doctor` | `commands/ecc-tools-doctor.md` | Diagnose drift, missing files, and inconsistencies in the ECC install-state for the current context. | `scripts/doctor.js` |
 | 4 | `ecc-tools-repair` | `commands/ecc-tools-repair.md` | Rebuild missing or broken ECC-managed files from install-state, fix hook scripts, and restore the install to a consistent state. | `scripts/repair.js` |
 | 5 | `ecc-tools-setup` | `commands/ecc-tools-setup.md` | Interactive setup wizard: detect the project stack, select harness targets, and install agents/skills/rules/hooks. | `scripts/install-apply.js`, `scripts/install-plan.js` |
-| 6 | `orcid-database` | `skills/scientific-db-orcid/SKILL.md` | ORCID iD researcher profile lookup, works/publication retrieval, employment/funding data, and Public API workflows. | — |
+| 6 | `orcid-database` *(skill)* | `skills/scientific-db-orcid/SKILL.md` | ORCID iD researcher profile lookup, works/publication retrieval, employment/funding data, and Public API workflows. Not a slash command — activated by referencing the skill in an agent prompt or via `/skill orcid-database`. | — |
 
 ---
 
